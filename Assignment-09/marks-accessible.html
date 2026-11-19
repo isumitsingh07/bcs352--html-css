@@ -1,0 +1,48 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 9: Tables with Headers and Footers - Task 3
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Table</title>
+    
+    <style>
+        body { font-family: Arial, sans-serif; margin: 25px; }
+        table { border-collapse: collapse; width: 400px; margin-top: 15px; }
+        caption { font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; text-align: left; }
+        th, td { border: 1px solid #718096; padding: 10px; text-align: center; }
+        thead th { background-color: #edf2f7; }
+        tfoot td { font-weight: bold; background-color: #f7fafc; }
+    </style>
+    
+</head>
+<body>
+    <table>
+        <caption>Marks of Class A</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Maths</th>
+                <th scope="col">Science</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Asha</th>
+                <td>78</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <th scope="row">Rohan</th>
+                <td>64</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

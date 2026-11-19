@@ -1,0 +1,24 @@
+/*
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 10: CSS Fundamentals - External Stylesheet
+  Student Name: sumit singh
+  Roll Number: 2510303522
+*/
+
+h1 {
+    color: navy;
+}
+
+.note {
+    font-style: italic;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+}

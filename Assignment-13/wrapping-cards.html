@@ -1,0 +1,54 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 13: Flexbox Layouts - Task 3
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wrapping Cards</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 25px; }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: #ebf8ff;
+            border: 1px solid #bee3f8;
+            border-radius: 8px;
+            padding: 20px;
+            width: 180px;
+            box-sizing: border-box;
+        }
+        .card h3 { margin: 0 0 10px 0; color: #2c5282; }
+        .card p { margin: 0; font-weight: bold; color: #2d3748; }
+    </style>
+</head>
+<body>
+    <h1>Stationery Shop</h1>
+    <div class="card-container">
+        <div class="card">
+            <h3>Notebook</h3>
+            <p>Price: 60</p>
+        </div>
+        <div class="card">
+            <h3>Pen</h3>
+            <p>Price: 15</p>
+        </div>
+        <div class="card">
+            <h3>Bag</h3>
+            <p>Price: 350</p>
+        </div>
+        <div class="card">
+            <h3>Book</h3>
+            <p>Price: 120</p>
+        </div>
+    </div>
+</body>
+</html>

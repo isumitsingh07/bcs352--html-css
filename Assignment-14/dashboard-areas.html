@@ -1,0 +1,75 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 14: CSS Grid Layouts - Task 3
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Grid Areas</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .dashboard {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            gap: 12px;
+            min-height: 450px;
+        }
+        header {
+            grid-area: header;
+            background-color: #2b6cb0;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+        }
+        aside {
+            grid-area: sidebar;
+            background-color: #e2e8f0;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        main {
+            grid-area: main;
+            background-color: #edf2f7;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #2d3748;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h2>Dashboard Header</h2>
+        </header>
+        <aside>
+            <h3>Sidebar Nav</h3>
+            <ul>
+                <li>Overview</li>
+                <li>Analytics</li>
+                <li>Settings</li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Main Analytics Area</h2>
+            <p>Welcome to the main dashboard workspace powered by CSS Grid template areas.</p>
+        </main>
+        <footer>
+            <p>&copy; 2026 Invertis University Portal Dashboard</p>
+        </footer>
+    </div>
+</body>
+</html>

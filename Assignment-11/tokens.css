@@ -1,0 +1,25 @@
+/*
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 11: Design Tokens in CSS
+  Student Name: sumit singh
+  Roll Number: 2510303522
+*/
+
+:root {
+    --primary-color: #1d3557;
+    --accent-color: #e63946;
+    --heading-size: 2rem;
+    --spacing-value: 16px;
+}
+
+body {
+    color: var(--primary-color);
+    padding: var(--spacing-value);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: var(--heading-size);
+}

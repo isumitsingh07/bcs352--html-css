@@ -1,0 +1,54 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 13: Flexbox Layouts - Task 2
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centred Cards</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f7fafc; }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            min-height: 350px;
+            background-color: #edf2f7;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 180px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h3 { margin-top: 0; color: #2d3748; }
+        .card p { font-size: 1.4rem; font-weight: bold; color: #2b6cb0; margin-bottom: 0; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Subscription Plans</h1>
+    <div class="row">
+        <div class="card">
+            <h3>Starter</h3>
+            <p>199</p>
+        </div>
+        <div class="card">
+            <h3>Standard</h3>
+            <p>349</p>
+        </div>
+        <div class="card">
+            <h3>Premium</h3>
+            <p>499</p>
+        </div>
+    </div>
+</body>
+</html>

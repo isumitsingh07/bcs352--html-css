@@ -1,0 +1,37 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 15: Responsive Pages with Media Queries - Task 3
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Typography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: #2b6cb0;
+        }
+
+        @media (min-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Typography Heading</h1>
+    <p>The font size of this body text is 1rem. On mobile viewports below 600px, the heading is sized at 1.5rem. When the browser window is resized to 600px or wider, the media query smoothly increases the heading to 2.5rem.</p>
+</body>
+</html>

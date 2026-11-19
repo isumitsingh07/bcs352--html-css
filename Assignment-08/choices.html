@@ -1,0 +1,39 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 8: Sign-Up Forms and Choices - Task 2
+  Student Name: sumit singh
+  Roll Number: 2510303022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course & Demographic Choices</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 25px; }
+        fieldset { margin-bottom: 15px; width: 320px; padding: 15px; }
+        select { padding: 6px; }
+    </style>
+</head>
+<body>
+    <h1>Student Choices Form</h1>
+    <form>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="gender-female" name="gender" value="Female">
+            <label for="gender-female">Female</label>
+            <input type="radio" id="gender-male" name="gender" value="Male">
+            <label for="gender-male">Male</label>
+        </fieldset>
+
+        <p>
+            <label for="course-select">Select Course:</label>
+            <select id="course-select" name="course">
+                <option value="BCA">BCA</option>
+                <option value="B.Tech">B.Tech</option>
+            </select>
+        </p>
+    </form>
+</body>
+</html>

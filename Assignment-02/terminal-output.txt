@@ -1,0 +1,33 @@
+======================================================================
+INVERTIS UNIVERSITY, BAREILLY
+B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+Assignment 2: Pushing and Cloning a Repository
+Student Name: sumit singh
+Roll Number: 2510303022
+Aim: Send your commits to a second repository on your computer and make a copy of it with clone.
+======================================================================
+
+Task 1:
+[html-lab] $ git init --bare ../html-remote
+Initialized empty Git repository in C:/Users/thaku/.gemini/antigravity/scratch/bcs352-html-css-lab/git-workspace/html-remote/
+
+[html-lab] $ git remote add origin ../html-remote
+[html-lab] $ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)
+
+Task 2:
+[html-lab] $ git push origin master
+To ../html-remote
+ * [new branch]      master -> master
+
+Task 3:
+[html-lab] $ cd ..
+[git-workspace] $ git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+
+[git-workspace] $ cd html-copy
+[html-copy] $ git log --oneline
+8d39f12 Add next meeting heading
+4a12b89 Add home page

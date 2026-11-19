@@ -1,0 +1,34 @@
+<!--
+  INVERTIS UNIVERSITY, BAREILLY
+  B.Tech CSE - Second Year | HTML and CSS Introduction Lab (BCS352)
+  Assignment 11: Units and CSS Variables - Task 2
+  Student Name: sumit singh
+  Roll Number: 2510303522
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Custom Properties</title>
+    <style>
+        :root {
+            --main-color: #1d3557;
+            --accent-color: #e63946;
+            --page-padding: 20px;
+        }
+        body {
+            color: var(--main-color);
+            padding: var(--page-padding);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1 {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading Styled with Accent Color Variable</h1>
+    <p>This paragraph text is styled with the main color variable, and the page padding is powered by custom properties defined in the root selector.</p>
+</body>
+</html>
