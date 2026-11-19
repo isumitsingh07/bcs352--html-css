@@ -32,7 +32,7 @@
 ---
 
 ## 🚀 How to Run and View the Pages
-1. Open this lab directory: `C:\Users\sumit singh\.gemini\antigravity\scratch\bcs352-html-css-lab`
+1. Open the 'bcs352-html-css-lab' project folder on your computer
 2. Open `index.html` in any web browser to access the complete interactive navigation dashboard.
 3. Every individual `.html` file can be double-clicked to open directly in Google Chrome or Microsoft Edge.
 4. All screenshots are saved in the `screenshots/` subfolder inside each assignment folder.
