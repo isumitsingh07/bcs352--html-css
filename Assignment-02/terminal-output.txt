@@ -9,7 +9,7 @@ Aim: Send your commits to a second repository on your computer and make a copy o
 
 Task 1:
 [html-lab] $ git init --bare ../html-remote
-Initialized empty Git repository in C:/Users/thaku/.gemini/antigravity/scratch/bcs352-html-css-lab/git-workspace/html-remote/
+Initialized empty Git repository in C:/Users//.gemini/antigravity/scratch/bcs352-html-css-lab/git-workspace/html-remote/
 
 [html-lab] $ git remote add origin ../html-remote
 [html-lab] $ git remote -v

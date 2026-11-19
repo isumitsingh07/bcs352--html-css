@@ -11,7 +11,7 @@ Task 1:
 $ mkdir html-lab
 $ cd html-lab
 $ git init
-Initialized empty Git repository in C:/Users/thaku/.gemini/antigravity/scratch/bcs352-html-css-lab/git-workspace/html-lab/.git/
+Initialized empty Git repository in C:/Users//.gemini/antigravity/scratch/bcs352-html-css-lab/git-workspace/html-lab/.git/
 
 $ git config --local user.name "sumit singh"
 $ git config --local user.email "sumit.invertis11@gmail.com"
